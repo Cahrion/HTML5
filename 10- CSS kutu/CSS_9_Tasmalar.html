@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
+<title>HTML5 / İcabi Kırgız</title>
+
+    <style>
+        div{
+            border: 5px solid indianred;
+            margin: 5px;
+        }
+        #buyuk{
+            width: 200px;
+            height: 100px;
+            background-color: khaki;
+            left: 20px; 
+            z-index: 3;
+            overflow: visible; /*Varsayılan olarak ayarlanır taşan kısım etrafta gözükür.*/
+            overflow: hidden; /*Taşan kısım gösterilmez.*/
+            overflow: scroll; /*Taşan kısma kaydırma cubugu koyulur.*/
+            overflow: auto; /* Eğer taşarsa kaydırma çubugu ekler ama taşmazsa normal bırakır.*/
+
+        }
+        #kucuk {
+            width: 500px;
+            height: 500px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="buyuk">
+        <div id="kucuk"></div>
+    </div>
+
+
+
+</body>
+</html>

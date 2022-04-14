@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
+<title>HTML5 / İcabi Kırgız</title>
+</head>
+
+<body>
+    <h1>Üye Kayıt Formu:</h1>
+    <form name="kayit" action="kayit.php" method="GET" autocomplete="on">
+        <table>
+            <tr>
+                <td>Ad Soyad:</td>
+                <td>
+                    <input type="text" id="adsoyad" name="adsoyad" value="İcabi Kırgız" required autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td>Şifre:</td>
+                <td><input type="password" id="password" name="password" required placeholder="Şifreni gir"></td>
+            </tr>              
+            <tr>
+                <td>Email:</td>
+                <td><input type="email" id="email" name="email" placeholder="Kullanılmıyor" disabled></td>
+            </tr>            
+            <tr>
+                <td><input type="submit" id="gonder" name="gonder" value="Gönder"></td>
+                <td><input type="reset" id="sifirla" name="sifirla" value="Sıfırla" disabled></td>
+            </tr>
+        </table>
+    </form>
+    <!-- autocomplete = Belli başlı aynı alanda doldurulma yapıldıysa o verileri öne getirir. -->
+    <!-- value = Başlangıçtaki yerin şuanlık ne olsun anlamına gelir. -->
+    <!-- autofocus = Eğer sayfaya girilirse ilk olarak focuslanır. -->
+    <!-- placeholder = Bir ipucu alanıdır dokunulunca kaybolur = Value ise kaybolmaz silmek gerekir. -->
+    <!-- disabled = Bir alanın yazılması veya basılması iptal edilir. -->
+</body>
+</html>

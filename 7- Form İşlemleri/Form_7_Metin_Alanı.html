@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
+<title>HTML5 / İcabi Kırgız</title>
+</head>
+
+<body>
+    <h1>Üye Kayıt Formu:</h1>
+    <form name="kayit" action="kayit.php" method="GET" autocomplete="on">
+        <table>
+            <tr>
+                <td>Ad Soyad:</td>
+                <td>
+                    <input type="text" id="adsoyad" name="adsoyad" value="İcabi Kırgız" required autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td>Şifre:</td>
+                <td><input type="password" id="password" name="password" required placeholder="Şifreni gir"></td>
+            </tr>              
+            <tr>
+                <td>Mesaj:</td>
+                <td>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mesajınızı giriniz...">
+                    </textarea>
+                    <!-- placeholder çalışmamaktadır. (Görünmez olarak görünmektedir.) -->
+                    <!-- rows = kaç satırlık olsun (Yükseklik) -->
+                    <!-- cols = kaç kolonluk olsun (Genişlik)  -->
+                </td>
+            </tr>            
+            <tr>
+                <td><input type="submit" id="gonder" name="gonder" value="Gönder"></td>
+                <td><input type="reset" id="sifirla" name="sifirla" value="Sıfırla"></td>
+            </tr>
+        </table>
+
+    </form>
+</body>
+</html>

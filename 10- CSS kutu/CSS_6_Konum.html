@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
+<title>HTML5 / İcabi Kırgız</title>
+
+    <style>
+        div{
+            border: 5px solid indianred;
+            margin: 5px;
+        }
+        #buyuk{
+            width: 200px;
+            height: 100px;
+            background-color: khaki;
+            position: static;
+            left: 20px; /* Değişmedi çünkü position değeri varsayılan değer olan (static)*/
+        }
+        #kucuk{
+            width: 100px;
+            height: 50px;
+            background-color: lawngreen;
+            position: relative; /*Bulunduğu konuma göre hareket eden nesnedir.*/
+            left: 20px;
+            top: 50px;
+        }        
+        #orta{
+            width: 150px;
+            height: 75px;
+            background-color: lawngreen;
+            position: fixed; /*Bulunduğu sayfa konumuna göre hareket eden nesnedir.*/
+            right: 30px;
+            top: 0px;
+        }
+        #ickutu{
+            width: 50px;
+            height: 25px;
+            background-color: #F1F1F1;
+            position: absolute; /*Bulunduğu kutuya göre konum alır.*/
+            right: 5px;
+            bottom: 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- konum faktörleri position faktörüyle kullanılır -->
+    <div id="buyuk">
+
+    </div>
+    <div id="kucuk">
+
+    </div>    
+    <div id="orta">
+        <div id="ickutu">
+
+        </div>
+    </div>
+
+</body>
+</html>

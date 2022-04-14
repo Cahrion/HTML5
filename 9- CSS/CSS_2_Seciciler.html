@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
+<title>HTML5 / İcabi Kırgız</title>
+<style>
+    p{
+        color:green;
+        /* Bütün p taglarını ele alır.*/
+    }
+    #ilk{
+        color: greenyellow;
+       /* id alanı ilk olanları ele alır */
+    }
+    .son{
+        color: red;
+        /* class alanı son olanları ele alır */
+    }
+    h1.egik{
+        color: hotpink;
+        /* h1 parametrelerinden class değeri egik olanı alır. */
+    }
+    p strong{
+        color: purple;
+        /* p tagı içerisindeki strong parametrelerini alır. */
+    }
+    *{
+        font-size: 25px;
+        /* Bütün parametreleri ele alır.*/
+    }
+    div,span{
+        background-color: yellow;
+        /* 
+        (,) parametresiyle ayrılmış kaç tane varsa o parametreleri alır yani (div) ve (span)'ı ayrı ayrı alır
+        */
+    }
+</style>
+</head>
+
+<body>
+
+    <p>Deneme 1</p>
+    <p id="ilk">Deneme 2</p>
+    <p class="son">Deneme 3</p>
+    <h1 class="egik">Deneme 4</h1>
+    <p><strong>Deneme 5</strong></p>
+    <div>Deneme 6</div>
+    <span>Deneme 7</span>
+
+</body>
+</html>

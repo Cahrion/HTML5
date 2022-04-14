@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
+
+<title>HTML5 / İcabi Kırgız</title>
+<style>
+    a:link{
+        color:skyblue;
+        /* Henüz ziyaret edilmemiş linkleri seçer.*/
+    }    
+    a:visited{
+        color:springgreen;
+        /* ziyaret edilmiş linkleri seçer.*/
+    }    
+    a:focus{
+        color:red;
+        /* Klavye ile etkinleştirilmiş linkleri seçer. */
+    }    
+    a:hover{
+        color:blue;
+        /* Fare üzerinde olan linkleri seçer */
+    }
+    input[type]{
+        width: 300px;
+        /* type özelliğine sahip olanları seç.*/
+    }    
+    input[type = "password"]{
+        font-size: large;
+        /* type özelliğine password olanları seç.*/
+    }
+
+</style>
+</head>
+
+<body>
+    <a href="https://www.icabikirgiz.com.tr">Henüz ziyaret edilmedi</a><br>
+    <a href="https://www.google.com.tr">Ziyaret edildi</a><br>
+    <a href="https://www.google.com.tr">Klavye ile seç (Tab)'la</a><br>
+    <a>Fare ile üstüne gel.</a><br>
+    <input type="text" value="Type türü olan inputları seçer"><br><br>
+    <input type="password" placeholder="Type türü password olanları seçer"><br><br>
+    <input>
+</body>
+</html>

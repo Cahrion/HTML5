@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="tr-TR">
+<head>
+<meta http-equiv="Content-Type"  content="text/html; charset=utf-8">
+
+<title>HTML5 / İcabi Kırgız</title>
+<style>
+    div>span{
+        color: purple;
+        /* Üst ebeveyni div olan tüm p taglarını seçer. */
+    }
+    .menu ul li{
+        color: red;
+        /* clası menu olan elemanın içinde bulunan ul tagının içindeki li tagını seçer.*/
+    }
+    body>div:first-child{
+        background-color: red;
+        /*body tagı altındaki ilk divi seçer.*/
+    }    
+    body>div:last-child{
+        background-color: blue;
+        /*body tagı altındaki son divi seçer.*/
+    }
+    a:active{
+        font-size: 100px;
+        /* aktif elemanı seçer.*/
+    }    
+
+</style>
+</head>
+
+<body>
+    <div>Burasını kırmızı boyar</div>
+    <div>Buralar kalacak | <span>Burayı Seçeçek</span> | Buralar kalacak</div>
+    <div class="menu">
+        <ul>
+            Buralar kalacak
+            <li>Burayı seçiçek</li>
+            Buralar kalacak
+        </ul>
+    </div>
+    <a href="https://www.google.com.tr">Basılınca büyür.</a><br>
+    
+    <div>Burasını mavi boyar.</div><br>
+    
+
+</body>
+</html>
